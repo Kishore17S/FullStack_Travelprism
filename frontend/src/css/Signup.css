@@ -1,0 +1,63 @@
+.register_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .register_container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .register_header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .signup_form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register_input_form {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+  }
+  
+  .register_button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register_label {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .register_label:hover {
+    text-decoration: underline;
+  }
+  
+  .error_message {
+    text-align: center;
+    color: red;
+  }
+  

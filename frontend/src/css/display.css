@@ -1,0 +1,54 @@
+.display_1 {
+    color: black;
+  }
+  .kishore_bold{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: medium;
+    
+ }
+ .text-center{
+     font-style: italic;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+ }
+
+
+ .kishore_view_button{
+     margin-top: 30px;
+     margin-left: 180px;
+ }
+ .text-center {
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    text-align: center;
+  }
+  .logout-container {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: red;
+  }
+  
+  
+ 
